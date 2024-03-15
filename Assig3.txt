@@ -1,0 +1,61 @@
+public class Assig3_1 {
+
+	public static void main(String[] args) {
+		
+		 int  integerNumber= 12345;
+		 double doubleNumber= integerNumber;
+		 System.out.println("Double:" + doubleNumber);
+	}
+
+}
+// Question 2
+public class Assig3_2 {
+    
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double doubleNumber=1235.25;
+		int integerNumber =(int)doubleNumber;
+		System.out.print("int : "+ integerNumber);
+	}
+
+}
+
+// Question 3
+
+
+public class Assig3_3 {
+        public static void main(String[] args) {
+            // TODO Auto-generated method stub
+            int num=123;
+            float num1=12.52f;
+            double num2= 123.454;
+            int sum =(int) num1 +(int)num2+ num;
+            int sub=(int)num1-(int)num2-num;
+            int mult =(int)num1*(int)num2*num;
+            int div=(int)num1/(int)num2/num;
+            System.out.println("sum: "+sum);
+            System.out.println("Sub: "+ sub);
+            System.out.println("Multi:"+ mult);
+            System.out.println("Division: "+div);
+        }
+    
+    
+    }
+    
+
+
+// Question 4
+
+public class Assig3_4 {
+    public static void main(String avg[]) {
+        int integerNumber= 12345;
+        double doubleNumber= integerNumber;
+        float floatNumber= integerNumber;
+        //boolean booleanNumber = integerNumber;
+        //String stringCharacter= integerNumber;
+        System.out.println("double: "+ doubleNumber);
+        System.out.println("float: "+ floatNumber);
+        //System.out.println("boolean"+booleanNumber);
+        //System.out.println("String :"+stringCharacter);
+                
+}}
